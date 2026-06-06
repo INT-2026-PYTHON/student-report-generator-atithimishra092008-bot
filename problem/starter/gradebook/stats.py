@@ -41,3 +41,4 @@ def passing_students(records: list[dict], threshold: float = 60.0) -> list[str]:
     return sorted(
         [name for name, avg in averages.items() if avg >= threshold]
     )
+
